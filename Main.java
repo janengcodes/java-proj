@@ -1,20 +1,20 @@
 import java.awt.Color;
+import java.awt.Font;
+
+import javax.swing.BorderFactory;
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.border.Border;
 
 public class Main {
-    // JFrame = a GUI window to add components to
     public static void main(String[] args) {
         JFrame frame = new JFrame();
-        frame.setTitle("JFrame title goes here");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setResizable(false);
-        frame.setSize(420, 420);
+        frame.setLayout(null);
+        frame.setSize(750, 750);
         frame.setVisible(true);
+        
 
-        ImageIcon image = new ImageIcon("logo.png");
-        frame.setIconImage(image.getImage());
-        frame.getContentPane().setBackground(Color.green);
     }
-
 }

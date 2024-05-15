@@ -1,7 +1,7 @@
 import javax.swing.*;
 import java.awt.*;
 
-public class Main {
+public class Panels {
     public static void main(String[] args) {
         // JPanel = a GUI component that functions as a container to hold other components
 

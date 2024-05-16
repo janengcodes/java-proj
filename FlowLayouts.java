@@ -5,7 +5,7 @@ import javax.swing.JPanel;
 import javax.swing.JButton;
 import java.awt.Color;
 
-public class Main {
+public class FlowLayouts {
     public static void main(String[] args) {
         JFrame frame = new JFrame();
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

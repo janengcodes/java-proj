@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args){
-       new MyFrameDragAndDrop();
+       Game game = new Game();
+       System.out.println("Game object created");
     }
 }

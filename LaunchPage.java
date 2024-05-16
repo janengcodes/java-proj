@@ -1,3 +1,14 @@
+/*
+ * put this in main: 
+ * 
+ * public class Main {
+    public static void main(String[] args){
+        LaunchPage launchPage = new LaunchPage();
+    }
+}
+
+ */
+
 import java.awt.event.ActionListener;
 import javax.swing.*;
 import java.awt.event.ActionEvent;

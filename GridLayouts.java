@@ -1,11 +1,6 @@
-import java.awt.Dimension;
-import java.awt.FlowLayout;
 import java.awt.GridLayout;
-
 import javax.swing.JFrame;
-import javax.swing.JPanel;
 import javax.swing.JButton;
-import java.awt.Color;
 
 public class GridLayouts {
     public static void main(String[] args) {
